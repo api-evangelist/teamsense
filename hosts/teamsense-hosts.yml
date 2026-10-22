@@ -1,0 +1,110 @@
+generated: '2026-10-22'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 8
+  own: 8
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - docs
+  - other
+  - security
+  - status
+  - website
+hosts:
+- host: api.teamsense.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: teamsense.com
+  role: api
+  relation: own
+- host: app.teamsense.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: teamsense.com
+  role: other
+  relation: own
+- host: help.teamsense.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  types:
+  - Support
+  - GettingStarted
+  - Documentation
+  serves:
+  - docs
+  registrable_domain: teamsense.com
+  role: docs
+  relation: own
+- host: pages.teamsense.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: teamsense.com
+  role: other
+  relation: own
+- host: status.teamsense.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: teamsense.com
+  role: status
+  relation: own
+- host: teamsense.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Compliance
+  - Website
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: teamsense.com
+  role: website
+  relation: own
+- host: trust.teamsense.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: teamsense.com
+  role: other
+  relation: own
+- host: www.teamsense.com
+  found_by:
+  - pointer
+  types:
+  - Security
+  - PrivacyPolicy
+  serves: []
+  registrable_domain: teamsense.com
+  role: security
+  relation: own

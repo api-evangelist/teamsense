@@ -1,0 +1,15 @@
+# security.txt file for https://www.teamsense.com/ - more info: https://securitytxt.org/
+# (required) Contact email address for security issues
+Contact: user@example.com
+
+# (required) Expiration date for the security information herein
+Expiration: 2026-10-21T18:39:41-07:00
+
+# (optional) OpenPGP key:
+Encryption: https://www.teamsense.com/pgp-key.txt
+
+# (optional) Security policy page:
+Policy: https://www.teamsense.com/security-policy
+
+# (optional) Security acknowledgements page:
+Acknowledgements: https://www.teamsense.com/hall-of-fame

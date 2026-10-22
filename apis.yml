@@ -1,25 +1,98 @@
 aid: teamsense
+
 name: TeamSense
-description: 'TeamSense is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by bonfire-ventures) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://glib-coyote.transforms.svdcdn.com/production/teamsense/TeamSense-SEO-Image-1.png?w=1200&h=630&q=82&auto=format&fit=clip&dm=1664454302&s=a8c678782fc6b12893ed72414546eb71
+
+description: 'TeamSense provides an all‑in‑one attendance management and employee communication platform for frontline workers. Built for manufacturing, HR, and operations teams, it offers features like attendance tracking, shift start, forms, insights, points‑system calculations, and integrations. The SaaS solution helps reduce turnover, improve visibility, and streamline absence reporting across industries.'
+
 url: https://raw.githubusercontent.com/api-evangelist/teamsense/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Attendance
+- WorkforceManagement
+- SaaS
+- Frontline
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- bonfire-ventures
+
 common:
+- type: SecurityTxt
+  url: well-known/teamsense-www-security.txt
+- type: Compliance
+  url: https://teamsense.com/security
+- type: Security
+  url: https://www.teamsense.com/security-policy
+- type: LLMsTxt
+  url: llms/teamsense-llms.txt
+- type: SecurityTxt
+  url: well-known/teamsense-security.txt
+- type: WellKnown
+  url: well-known/teamsense-well-known.yml
+- type: Hosts
+  url: hosts/teamsense-hosts.yml
+- type: Vendors
+  url: vendors/teamsense-vendors.yml
+- type: Support
+  url: https://help.teamsense.com
+- type: PrivacyPolicy
+  url: https://www.teamsense.com/privacy-policy
+- type: GettingStarted
+  url: https://help.teamsense.com/data-needed-for-onboarding
+- type: Documentation
+  url: https://help.teamsense.com/
+- type: TrustCenter
+  url: security/teamsense-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/teamsense-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/teamsense-domain-security.yml
 - type: Website
   url: https://teamsense.com
+
+apis: []
+
+x-backed-by:
+- bonfire-ventures
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-22'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://app.teamsense.com/api/mcp
+    status: 403
+  - url: https://help.teamsense.com/mcp
+    status: 403
+  - url: https://pages.teamsense.com/mcp
+    status: 403
+  - url: https://teamsense.com
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 13
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

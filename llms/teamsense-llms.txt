@@ -1,0 +1,28 @@
+# TeamSense
+
+> TeamSense is a text-first, fully automated absence management and attendance tracking platform built for frontline workers. Employees report absences via SMS — no app, no login, no training required. The system automatically notifies supervisors, triggers workflows, and integrates with existing HR and payroll systems.
+
+## Core Product
+
+- [Absence Management](https://www.teamsense.com/absence-management/): Automate absence reporting and notifications via text message for frontline workers
+- [Attendance Tracking](https://www.teamsense.com/attendance-tracking/): Real-time attendance visibility for supervisors and HR teams
+- [Compliance & Documentation](https://www.teamsense.com/compliance/): Automated call-off documentation and policy enforcement
+- [Integrations](https://www.teamsense.com/integrations/): Connect with ADP, SAP, Kronos, UKG, and other HR/payroll systems
+
+## Why TeamSense
+
+- [How It Works](https://www.teamsense.com/how-it-works/): Step-by-step overview of the TeamSense absence automation workflow
+- [ROI Calculator](https://www.teamsense.com/roi-calculator/): Estimate cost savings from reducing absenteeism and manual HR processes
+- [Customer Stories](https://www.teamsense.com/customers/): Case studies from manufacturing, logistics, and distribution companies
+
+## Company
+
+- [About](https://www.teamsense.com/about/): TeamSense mission, team, and company background
+- [Blog](https://www.teamsense.com/blog/): Articles on workforce management, absence management, and frontline employee engagement
+- [Careers](https://www.teamsense.com/careers/): Open positions at TeamSense
+- [Contact](https://www.teamsense.com/contact/): Get in touch with the TeamSense team
+
+## Resources
+
+- [Pricing](https://www.teamsense.com/pricing/): TeamSense pricing plans for teams of all sizes
+- [Book a Demo](https://www.teamsense.com/demo/): Schedule a live product demonstration

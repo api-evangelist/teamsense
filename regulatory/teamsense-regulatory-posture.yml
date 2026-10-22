@@ -1,0 +1,22 @@
+generated: '2026-10-22'
+method: searched
+source: https://www.teamsense.com/privacy-policy
+signals:
+  data_subject_request:
+    url: https://www.teamsense.com/privacy-policy
+    section: null
+    note: Users may request access, correction, or deletion of their data as described.
+    evidence:
+      - source: https://www.teamsense.com/privacy-policy
+        http_status: 200
+        fetched: "2026-10-22"
+        quote: "We may access, preserve, and disclose your information if we believe doing so is required or appropriate to: (a) comply with law enforcement requests and legal process, such as a court order or subpoena; (b) respond to your requests; or (c) protect your, our, or others’ rights, property, or safety."
+  data_residency:
+    url: https://www.teamsense.com/privacy-policy
+    section: null
+    note: Data is stored and processed in the United States.
+    evidence:
+      - source: https://www.teamsense.com/privacy-policy
+        http_status: 200
+        fetched: "2026-10-22"
+        quote: "Our Services are hosted in the United States and intended for visitors located within the United States. ... By providing any information, including personal information, on or to the Services, you consent to such transfer, storage, and processing."
